@@ -4,7 +4,7 @@
 ## Live example
 - [Github pages](https://juan18506.github.io/crud-db-app)
 
-## Descripción 📑
+## Description 📑
 
 It's a user CRUD app that uses JSON Server to simulate a backend. It was created with HTML, CSS, and JavaScript. 
 
@@ -27,9 +27,9 @@ It's a user CRUD app that uses JSON Server to simulate a backend. It was created
 ## Author ✒️
 **Juan Andres Alves Pedreira Luceno**
 
-* [Email](alvespedreiralucenojuanandres@gmail.com)
+* [Email](mailto:alvespedreiralucenojuanandres@gmail.com)
 * [LinkedIn](https://www.linkedin.com/in/juan-alves-pedreira/)
-* [Porfolio web](https://juan18506.github.io/)
+* [Web portfolio](https://juan18506.github.io/)
 
 
 ## Installation and usage
