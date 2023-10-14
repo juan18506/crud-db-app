@@ -1,4 +1,4 @@
-import { loadUsersByPage } from "../use-cases/load-users-by-page";
+import { loadUsersByPage } from '../use-cases/load-users-by-page';
 
 const state = {
   users: [],
