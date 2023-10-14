@@ -1,6 +1,4 @@
+import { usersApp } from './src/users/users-app';
 import './style.css';
 
-document.querySelector('#app').innerHTML = `
-`;
-
-setupCounter(document.querySelector('#counter'));
+usersApp(document.querySelector('#app'))

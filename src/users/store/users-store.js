@@ -1,10 +1,12 @@
+import { loadUsersByPage } from "../use-cases/load-users-by-page";
+
 const state = {
   users: [],
   currentPage: 0,
 }
 
 const loadNextPage = async () => {
-  throw new Error('Not implemented');
+  await loadUsersByPage(state.currentPage + 1);
 }
 
 const loadPreviousPage = async () => {
