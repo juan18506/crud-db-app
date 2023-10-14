@@ -10,9 +10,9 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-/* .hide-modal {
+.hide-modal {
   display: none;
-} */
+}
 
 .modal-dialog {
   background-color: #ececec;
