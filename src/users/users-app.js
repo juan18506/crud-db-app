@@ -1,11 +1,11 @@
-import { renderTable, renderButtons, renderAddButton } from './presentation';
+import { renderTable, renderButtons, renderAddButton, renderModal } from './presentation';
 import usersStore from './store/users-store';
 
 /**
  * 
  * @param {Element} element 
  */
-export const usersApp = async (element) => {
+export const UsersApp = async (element) => {
   element.innerHTML = 'Loading...';
   await usersStore.loadNextPage();
   element.innerHTML = '';
@@ -13,4 +13,5 @@ export const usersApp = async (element) => {
   renderTable(element);
   renderButtons(element);
   renderAddButton(element);
+  renderModal(element);
 }

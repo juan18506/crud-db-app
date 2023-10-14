@@ -1,5 +1,5 @@
-import { usersApp } from './src/users/users-app';
+import { UsersApp } from './src/users/users-app';
 
 import './style.css';
 
-usersApp(document.querySelector('#app'))
+UsersApp(document.querySelector('#app'))
