@@ -63,6 +63,10 @@ export const renderModal = (element, callback) => {
     event.preventDefault();
 
     const formData = new FormData(form);
+    if (!formData.get('isActive')) {
+      formData.append('isActive', 'off');
+    }
+
     const userLike = {...loadedUser};
 
     for (const [key, value] of formData) {
@@ -73,7 +77,7 @@ export const renderModal = (element, callback) => {
 
       if (key === 'isActive') {
         userLike[key] = value === 'on';
-        continue
+        continue;
       }
 
       userLike[key] = value;

@@ -20,7 +20,7 @@
     },
     {
       "id": 3,
-      "isActive": true,
+      "isActive": false,
       "balance": 2010.88,
       "avatar": "http://placehold.it/32x32",
       "first_name": "Lee",
@@ -29,7 +29,7 @@
     },
     {
       "id": 4,
-      "isActive": false,
+      "isActive": true,
       "balance": 1601.54,
       "avatar": "http://placehold.it/32x32",
       "first_name": "Henry",
@@ -38,7 +38,7 @@
     },
     {
       "id": 5,
-      "isActive": false,
+      "isActive": true,
       "balance": 1455.08,
       "avatar": "http://placehold.it/32x32",
       "first_name": "Mia",
@@ -56,7 +56,7 @@
     },
     {
       "id": 7,
-      "isActive": false,
+      "isActive": true,
       "balance": 1985.59,
       "avatar": "http://placehold.it/32x32",
       "first_name": "Harris",
@@ -65,7 +65,7 @@
     },
     {
       "id": 8,
-      "isActive": false,
+      "isActive": true,
       "balance": 2143.38,
       "avatar": "http://placehold.it/32x32",
       "first_name": "Davis",
@@ -451,7 +451,7 @@
       "gender": "male"
     },
     {
-      "balance": 123123,
+      "balance": 12,
       "first_name": "juan",
       "isActive": true,
       "last_name": "esa",
