@@ -2,7 +2,7 @@
 ![Project image](https://i.imgur.com/0AT7TfC.png)
 
 ## Live example
-- [Github pages](https://juan18506.github.io/)
+- [Github pages](https://juan18506.github.io/crud-db-app)
 
 ## Descripción 📑
 
